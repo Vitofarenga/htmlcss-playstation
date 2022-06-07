@@ -22,3 +22,49 @@ header{
     height: 800px;
     width: 100vw;
 }
+/* sez 1 */
+#imcont{
+    width: 100%;
+    background-image: url(img/jumbo-bg.png);
+    height: 675px;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+#spacer{
+    width: 100%;
+    height: 110px;
+}
+#im2{
+    width: 300px;
+}
+#break{
+    font-size: 50px;
+    color: white;
+}
+#lor{
+    color: white;
+}
+#buy{
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border-radius: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+#buycont{
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+#lorcont{
+    margin-top: 40px;
+}
+#pcont{
+    margin-left: 15px;
+}
+#bcont{
+    margin-top: 25px;
+}
+/* sezione 2 */
