@@ -81,15 +81,45 @@ header{
     padding-right: 10px;
     text-decoration: none;
 }
-@include media-breakpoint-up(md) {
-    .just {
-      display: flex;
-      flex-direction:row;
-      justify-content:space-evenly;
-    }
-    .just1{
-       width:140px;
-       height:100px;
-    }
-  }
-
+#imcont2{
+    width: 100%;
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    height: 675px;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+#imm{
+   width: 20em;
+   
+}
+#ik{
+    font-size: 2em;
+    color: white;
+}
+.w{
+    color: white;
+    
+}
+.tt{
+    color: white;
+}
+.ggg{
+    color: rgb(188, 188, 188);
+}
+.bc{
+    background-color: grey;
+}
+.dim{
+    width: 20em;
+}
+.bplay{
+    color: rgb(236, 236, 236);
+    background-color: rgb(218, 218, 218);
+    padding: 5px;
+    border-radius: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: blue;
+}
