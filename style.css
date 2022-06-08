@@ -71,3 +71,25 @@ header{
 .cg{
     color: rgb(192, 191, 191);
 }
+/* sezione 4 */
+.bbut{
+    color: white;
+    background-color: rgb(0, 60, 255);
+    padding: 5px;
+    border-radius: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+@include media-breakpoint-up(md) {
+    .just {
+      display: flex;
+      flex-direction:row;
+      justify-content:space-evenly;
+    }
+    .just1{
+       width:140px;
+       height:100px;
+    }
+  }
+
